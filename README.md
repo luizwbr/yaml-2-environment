@@ -1,10 +1,10 @@
-# yaml-2-env
+# yaml-2-environment
 Yaml file to environment variables. Based on https://github.com/jrwells/env-yaml
 
 ## Usage
 
 ```javascript
-require('yaml-2-env').config();
+require('yaml-2-environment').config();
 ```
 
 It loads a `.env.yml` file in the root directory of your project, and parses to add as environment variables.
@@ -27,7 +27,7 @@ Default: `.env.yml`
 You can specify a custom path if your file containing environmnet variables is named or located differently.
 
 ```javascript
-require('yaml-2-env').config({ path: '/custom/path/to/your/yaml/env/vars' });
+require('yaml-2-environment').config({ path: '/custom/path/to/your/yaml/env/vars' });
 ```
 
 ### Encoding
@@ -38,7 +38,7 @@ You may specify the encoding of your file containing environment variables
 using this option.
 
 ```javascript
-require('yaml-2-env').config({ encoding: 'base64' });
+require('yaml-2-environment').config({ encoding: 'base64' });
 ```
 ### Namespace
 
@@ -47,4 +47,4 @@ Default: null
 You may specify a namespace in which to fetch your environment variables. Useful when you want to store environment specific values within the same files.
 
 ```javascript
-require('yaml-2-env').config({ namespace: 'development' });
+require('yaml-2-environment').config({ namespace: 'development' });

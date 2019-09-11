@@ -1,17 +1,17 @@
 {
-  "name": "yaml-2-env",
+  "name": "yaml-2-environment",
   "version": "1.0.0",
   "description": "Yaml file to environment variables",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luizwbr/yaml-2-env"
+    "url": "https://github.com/luizwbr/yaml-2-environment"
   },
   "author": "Luiz Weber",
   "bugs": {
-    "url": "https://github.com/luizwbr/yaml-2-env/issues"
+    "url": "https://github.com/luizwbr/yaml-2-environment/issues"
   },
-  "homepage": "https://github.com/luizwbr/yaml-2-env#readme",
+  "homepage": "https://github.com/luizwbr/yaml-2-environment#readme",
   "dependencies": {
     "js-yaml": "^3.8.4"
   },
