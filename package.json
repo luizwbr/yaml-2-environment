@@ -28,5 +28,6 @@
   "readme": "README.md",
   "engines": {
     "node": ">=4.6.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
